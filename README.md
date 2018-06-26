@@ -1,7 +1,7 @@
 # Ninja Academy
 
 ## Live Link
-https://mateyo3.github.io/ninja-acaedemy
+https://mateyo3.github.io/ninja-academy
 
 ## Built With
 HTML, CSS, Lightbox, WuFoo Forms
@@ -9,7 +9,7 @@ HTML, CSS, Lightbox, WuFoo Forms
 ## Cloning the Repo
 Click the Clone or download button to copy the URL
 
-In the Terminal:
+### In the Terminal:
 
 1. Navigate into a directory `cd [folder name]`
 2. Clone repository into the directory `git clone [paste URL]`
