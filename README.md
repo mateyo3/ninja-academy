@@ -4,7 +4,7 @@
 https://mateyo3.github.io/ninja-academy
 
 ## Built With
-HTML, CSS, Lightbox, WuFoo Forms
+HTML, CSS, Lightbox, Videobox, WuFoo Forms
 
 ## Cloning the Repo
 Click the Clone or download button to copy the URL
