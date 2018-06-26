@@ -59,6 +59,10 @@ hmtl, body {
 	clear:right;
 }
 
+#main-content h2 {
+	text-align:center;
+}
+
 #main-content a:link, #main-content a:visited {
 	text-decoration:none;	
 	color:black;
