@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/*
+	author: Matthew Reyes
+	url: reyes.site11.com
+*/
+
+
+hmtl, body {
+	margin:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:95%;
+}
+
+#bg-image, img.bg-image {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:-100;
+}
+
+#main-content {
+	width:70%;
+	height:32em;
+	margin:2em auto;
+	z-index:100;
+	background:rgb(248,248,248) ;
+	background:rgba(248,248,248, 0.75);
+	padding:0px 10px 10px 10px;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	overflow:auto;
+	box-shadow: 4px 4px 4px #B8B8B8;
+}
+
+#main-content h1 {
+	font-family: 'Ceviche One', cursive, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size:400%;
+}
+
+#main-content ul {
+	float:right;
+	margin-top:8px;
+	padding-right:.5em;
+	font-size:98%;
+}
+
+#main-content li {
+	display:inline;
+	padding-left:.5em;
+}
+
+#main-content h1 {
+	clear:right;
+}
+
+#main-content a:link, #main-content a:visited {
+	text-decoration:none;	
+	color:black;
+}
+
+#main-content a:hover, #main-content a:active {
+	text-decoration:underline;	
+	color:gray;
+}
+
+body#home a.home, body#pictures a.pictures, body#videos a.videos, body#contact a.contact {
+	text-decoration:none;	
+	color:gray;
+}
+
+#main-content table {
+	width:95%;
+	text-align:left;
+	border-collapse:collapse;
+	margin:-20px auto 0 auto;
+	font-size:115%;
+}
+
+#main-content th {
+	background-color:#666;
+	padding:6px;
+}
+
+#main-content td {
+	padding:6px;
+}
+
+#main-content tr {
+	background-color:#FFCC66
+}
+
+#main-content tr:nth-child(even) {
+	background-color:#E8E8E8 ;
+}
+
+#main-content tr:hover {
+	background-color:#FF4900;
+}
+
+#main-content img {
+	border:thin solid #000;
+	border-radius:8px;
+	-moz-border-radius:8px;
+}
+
+#picture-thumbnails {
+	margin-top:-20px;
+}
+
+#picture-thumbnails a:hover {
+	opacity:.5;
+}
+
+#video-thumbnails {
+	margin-top:-20px;
+}
+
+#video-thumbnails a:hover {
+	opacity:.5;
+}
+
+#contact-form {
+	width:498px;
+	margin:-40px auto 0 auto;
+}
+
+#addthis_toolbox addthis_default_style {
+	z-index:150;
+}
+
+#addthis {
+	padding-top:10em;
+	background-color:transparent;
+}
